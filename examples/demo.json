@@ -1,0 +1,38 @@
+{
+  "baseline": 10,
+  "shift_threshold": 0.5,
+  "batches": [
+    {
+      "id": "gauge_shift",
+      "products": [
+        12,
+        12.1,
+        11.9
+      ],
+      "references": [
+        {
+          "true": 5,
+          "measured": 7
+        }
+      ],
+      "product_error_bound": 0.1,
+      "reference_error_bound": 0.1
+    },
+    {
+      "id": "process_shift",
+      "products": [
+        13,
+        13.1,
+        12.9
+      ],
+      "references": [
+        {
+          "true": 5,
+          "measured": 7
+        }
+      ],
+      "product_error_bound": 0.1,
+      "reference_error_bound": 0.1
+    }
+  ]
+}

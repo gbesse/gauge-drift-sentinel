@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gauge-drift-sentinel"
+version = "0.1.0a1"
+description = "FR: Séparer dérive de mesure et dérive de procédé avec des pièces témoins | EN: Separate gauge drift from process drift using reference parts | ES: Separar deriva de medición y de proceso mediante piezas de referencia"
+requires-python = ">=3.11"
+license = "MIT"
+
+[project.scripts]
+gauge-drift-sentinel = "gauge_drift_sentinel.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["gauge_drift_sentinel*"]

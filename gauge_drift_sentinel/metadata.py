@@ -1,0 +1,1 @@
+DESCRIPTION = {'fr': 'Séparer dérive de mesure et dérive de procédé avec des pièces témoins', 'en': 'Separate gauge drift from process drift using reference parts', 'es': 'Separar deriva de medición y de proceso mediante piezas de referencia'}
